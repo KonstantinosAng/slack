@@ -1,6 +1,6 @@
 # Slack clone
 
-A [Slack](https://slack.com/intl/en-gr/) clone using [React JS](https://reactjs.org), [Redux JS](https://redux.js.org) & [Material UI](https://material-ui.com) for the front-end and [Firebase](https://firebase.google.com) for authorization, authentication and Storage. Inspired by [this tutorial](https://www.youtube.com/watch?v=QiTq5WrWoJw).
+A [Slack](https://slack.com/intl/en-gr/) clone using [React JS](https://reactjs.org), [Redux JS](https://redux.js.org), [Material UI](https://material-ui.com) & [Styled Components](https://www.codewars.com/users/CyberBoy) for the front-end and [Firebase](https://firebase.google.com) for authorization, authentication and Storage. Inspired by [this tutorial](https://www.youtube.com/watch?v=QiTq5WrWoJw).
 
 ## Requirements
 
