@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import SendIcon from '@material-ui/icons/Send';
 import { Avatar } from '@material-ui/core';
 import AccessTimeIcon from '@material-ui/icons/AccessTime';
 import SearchIcon from '@material-ui/icons/Search';
