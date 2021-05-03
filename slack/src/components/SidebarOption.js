@@ -70,6 +70,5 @@ const SidebarOptionChannel = styled.h3`
   cursor: pointer;
   padding: 10px 0;
   font-weight: 300;
-
 `;
 
