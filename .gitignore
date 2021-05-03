@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+slack/node_modules
+slack/.pnp
+slack/.pnp.js
+
+# testing
+slack/coverage
+
+# production
+slack/build
+
+# misc
+slack/.DS_Store
+slack/.env.local
+slack/.env.development.local
+slack/.env.test.local
+slack/.env.production.local
+
+slack/npm-debug.log*
+slack/yarn-debug.log*
+slack/yarn-error.log*
