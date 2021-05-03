@@ -15,10 +15,13 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import AddIcon from '@material-ui/icons/Add';
 import { useCollection } from 'react-firebase-hooks/firestore';
 import { db } from '../features/firebase';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import { auth } from '../features/firebase';
 
 function Sidebar() {
 
   const [channels, loading, error] = useCollection(db.collection('rooms'));
+  const [user] = useAuthState(auth);
 
   return (
     <SidebarContainer>
@@ -27,7 +30,7 @@ function Sidebar() {
           <h2> Slack HQ </h2>
           <h3>
             <FiberManualRecordIcon />
-            Konstantinos
+            {user?.displayName}
           </h3>
         </SidebarInfo>
         <CreateIcon />
