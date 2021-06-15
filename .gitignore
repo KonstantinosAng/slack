@@ -17,7 +17,7 @@ slack/.env.local
 slack/.env.development.local
 slack/.env.test.local
 slack/.env.production.local
-
+slack/.env
 slack/npm-debug.log*
 slack/yarn-debug.log*
 slack/yarn-error.log*

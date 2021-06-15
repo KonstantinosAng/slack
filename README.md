@@ -4,6 +4,23 @@ A [Slack](https://slack.com/intl/en-gr/) clone using [React JS](https://reactjs.
 
 ## Requirements
 
+Inside the repo there is a [.env.example file](./slack/.env.example). Rename it to .env and fill the values with your own api keys.
+
+For firebase you will need a firebase config file from your webapp with the following values.
+
+```javascript
+
+REACT_APP_FIREBASE_API_KEY=
+REACT_APP_FIREBASE_AUTH_DOMAIN=
+REACT_APP_FIREBASE_PROJECT_ID=
+REACT_APP_FIREBASE_STORAGE_BUCKET=
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=
+REACT_APP_FIREBASE_APP_ID=
+REACT_APP_FIREBASE_MEASUREMENT_ID=
+```
+
+## Installation
+
 Assuming you have [npm](https://www.npmjs.com) installed, clone the repo and run the following code inside the [cloned folder](slack/):
 
 ```
