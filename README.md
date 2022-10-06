@@ -3,7 +3,7 @@
 A [Slack](https://slack.com/intl/en-gr/) clone using [React JS](https://reactjs.org), [Redux JS](https://redux.js.org), [Material UI](https://material-ui.com) & [Styled Components](https://www.codewars.com/users/CyberBoy) for the front-end and [Firebase](https://firebase.google.com) for authorization, authentication and Storage. Inspired by [this tutorial](https://www.youtube.com/watch?v=QiTq5WrWoJw).
 
 <div align="center">
-  <h1><a href="https://constantine.dev:8080/slack"> DEMO </a></h1>
+  <h1><a href="https://slack.constantine.dev"> DEMO </a></h1>
 </div>
 
 
