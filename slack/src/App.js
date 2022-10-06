@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div className="App">
-      <Router basename="/slack">
+      <Router basename="/">
         {!user ? (
           <Login />
         )
